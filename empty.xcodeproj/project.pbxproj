@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		18E3B2F621E88BCA00224D6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3B2F521E88BCA00224D6D /* AppDelegate.swift */; };
-		18E3B2F821E88BCA00224D6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3B2F721E88BCA00224D6D /* ViewController.swift */; };
 		18E3B2FB21E88BCA00224D6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E3B2F921E88BCA00224D6D /* Main.storyboard */; };
 		18E3B2FD21E88BCB00224D6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E3B2FC21E88BCB00224D6D /* Assets.xcassets */; };
 		18E3B30021E88BCB00224D6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E3B2FE21E88BCB00224D6D /* LaunchScreen.storyboard */; };
 		18E3B30B21E88BCC00224D6D /* emptyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3B30A21E88BCC00224D6D /* emptyTests.swift */; };
 		18E3B31621E88BCC00224D6D /* emptyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3B31521E88BCC00224D6D /* emptyUITests.swift */; };
+		18E3B32821E88F0B00224D6D /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3B32721E88F0B00224D6D /* Config.swift */; };
+		18E3B32A21E88F1F00224D6D /* Macor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3B32921E88F1F00224D6D /* Macor.swift */; };
+		18E3B32C21E88F2C00224D6D /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3B32B21E88F2C00224D6D /* Colors.swift */; };
+		18E3B33421E8909100224D6D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3B33321E8909100224D6D /* HomeViewController.swift */; };
+		18E3B33621E890AF00224D6D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3B33521E890AF00224D6D /* HomeView.swift */; };
+		18E3B33821E890C200224D6D /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3B33721E890C200224D6D /* HomeViewModel.swift */; };
+		18E3B33A21E890D000224D6D /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3B33921E890D000224D6D /* HomeModel.swift */; };
+		18E3B34021E8918700224D6D /* zhanwei.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3B33F21E8918700224D6D /* zhanwei.swift */; };
+		18E3B34B21E8927100224D6D /* tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3B34A21E8927100224D6D /* tools.swift */; };
+		18E3B34D21E8928400224D6D /* third.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3B34C21E8928400224D6D /* third.swift */; };
+		18E3B34F21E8928E00224D6D /* commond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3B34E21E8928E00224D6D /* commond.swift */; };
 		236C81DCC6426AF8CF18418A /* Pods_empty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E3B8F4BDBF0047F1DAA5AA /* Pods_empty.framework */; };
 		6A2D917C6CEF188F49A0AEF5 /* Pods_emptyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB31C9F4CE8C1508720A7EFC /* Pods_emptyUITests.framework */; };
 		EEBF558F8020611F9B277D4A /* Pods_emptyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1DD0280904EA8B19CBF955 /* Pods_emptyTests.framework */; };
@@ -40,7 +50,6 @@
 		0E1C6E9A6233AC77893A9B1A /* Pods-emptyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-emptyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-emptyUITests/Pods-emptyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		18E3B2F221E88BCA00224D6D /* empty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = empty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E3B2F521E88BCA00224D6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18E3B2F721E88BCA00224D6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18E3B2FA21E88BCA00224D6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18E3B2FC21E88BCB00224D6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18E3B2FF21E88BCB00224D6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +60,17 @@
 		18E3B31121E88BCC00224D6D /* emptyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = emptyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E3B31521E88BCC00224D6D /* emptyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emptyUITests.swift; sourceTree = "<group>"; };
 		18E3B31721E88BCC00224D6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E3B32721E88F0B00224D6D /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		18E3B32921E88F1F00224D6D /* Macor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Macor.swift; sourceTree = "<group>"; };
+		18E3B32B21E88F2C00224D6D /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		18E3B33321E8909100224D6D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		18E3B33521E890AF00224D6D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		18E3B33721E890C200224D6D /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		18E3B33921E890D000224D6D /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		18E3B33F21E8918700224D6D /* zhanwei.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zhanwei.swift; sourceTree = "<group>"; };
+		18E3B34A21E8927100224D6D /* tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tools.swift; sourceTree = "<group>"; };
+		18E3B34C21E8928400224D6D /* third.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = third.swift; sourceTree = "<group>"; };
+		18E3B34E21E8928E00224D6D /* commond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = commond.swift; sourceTree = "<group>"; };
 		40E3B8F4BDBF0047F1DAA5AA /* Pods_empty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_empty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		430CDDE4C5878E8CBDCA2C6C /* Pods-empty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-empty.debug.xcconfig"; path = "Pods/Target Support Files/Pods-empty/Pods-empty.debug.xcconfig"; sourceTree = "<group>"; };
 		43C2D4E9AE430B1BB8A6A8D1 /* Pods-emptyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-emptyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-emptyTests/Pods-emptyTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -114,6 +134,7 @@
 		18E3B2F421E88BCA00224D6D /* empty */ = {
 			isa = PBXGroup;
 			children = (
+				18E3B32D21E88F7C00224D6D /* Classes */,
 				18E3B32621E88E6800224D6D /* Config */,
 				18E3B32421E88E2B00224D6D /* Source */,
 				18E3B32321E88E1700224D6D /* AppleDelegate */,
@@ -143,7 +164,6 @@
 			isa = PBXGroup;
 			children = (
 				18E3B2F521E88BCA00224D6D /* AppDelegate.swift */,
-				18E3B2F721E88BCA00224D6D /* ViewController.swift */,
 			);
 			path = AppleDelegate;
 			sourceTree = "<group>";
@@ -170,8 +190,98 @@
 			isa = PBXGroup;
 			children = (
 				18E3B30121E88BCB00224D6D /* Info.plist */,
+				18E3B32721E88F0B00224D6D /* Config.swift */,
+				18E3B32921E88F1F00224D6D /* Macor.swift */,
+				18E3B32B21E88F2C00224D6D /* Colors.swift */,
 			);
 			path = Config;
+			sourceTree = "<group>";
+		};
+		18E3B32D21E88F7C00224D6D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				18E3B34921E8926400224D6D /* Tools */,
+				18E3B33E21E8910F00224D6D /* NetWork */,
+				18E3B33D21E890F100224D6D /* Third */,
+				18E3B33C21E890E200224D6D /* Commond */,
+				18E3B32E21E88F8C00224D6D /* Home */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		18E3B32E21E88F8C00224D6D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				18E3B33221E8906B00224D6D /* ViewController */,
+				18E3B33121E8905F00224D6D /* View */,
+				18E3B33021E8904E00224D6D /* ViewModel */,
+				18E3B32F21E8904600224D6D /* Model */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		18E3B32F21E8904600224D6D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18E3B33921E890D000224D6D /* HomeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18E3B33021E8904E00224D6D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				18E3B33721E890C200224D6D /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18E3B33121E8905F00224D6D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18E3B33521E890AF00224D6D /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18E3B33221E8906B00224D6D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18E3B33321E8909100224D6D /* HomeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		18E3B33C21E890E200224D6D /* Commond */ = {
+			isa = PBXGroup;
+			children = (
+				18E3B34E21E8928E00224D6D /* commond.swift */,
+			);
+			path = Commond;
+			sourceTree = "<group>";
+		};
+		18E3B33D21E890F100224D6D /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				18E3B34C21E8928400224D6D /* third.swift */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		18E3B33E21E8910F00224D6D /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				18E3B33F21E8918700224D6D /* zhanwei.swift */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		18E3B34921E8926400224D6D /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				18E3B34A21E8927100224D6D /* tools.swift */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 		37B361E5E3E68CF24FC74EDB /* Pods */ = {
@@ -400,8 +510,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18E3B2F821E88BCA00224D6D /* ViewController.swift in Sources */,
+				18E3B33421E8909100224D6D /* HomeViewController.swift in Sources */,
+				18E3B32A21E88F1F00224D6D /* Macor.swift in Sources */,
+				18E3B34D21E8928400224D6D /* third.swift in Sources */,
+				18E3B33821E890C200224D6D /* HomeViewModel.swift in Sources */,
+				18E3B34B21E8927100224D6D /* tools.swift in Sources */,
+				18E3B34F21E8928E00224D6D /* commond.swift in Sources */,
+				18E3B32C21E88F2C00224D6D /* Colors.swift in Sources */,
+				18E3B33A21E890D000224D6D /* HomeModel.swift in Sources */,
+				18E3B33621E890AF00224D6D /* HomeView.swift in Sources */,
 				18E3B2F621E88BCA00224D6D /* AppDelegate.swift in Sources */,
+				18E3B32821E88F0B00224D6D /* Config.swift in Sources */,
+				18E3B34021E8918700224D6D /* zhanwei.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
