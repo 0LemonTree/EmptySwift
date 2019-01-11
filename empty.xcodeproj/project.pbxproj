@@ -97,12 +97,9 @@
 		18E3B2F421E88BCA00224D6D /* empty */ = {
 			isa = PBXGroup;
 			children = (
-				18E3B2F521E88BCA00224D6D /* AppDelegate.swift */,
-				18E3B2F721E88BCA00224D6D /* ViewController.swift */,
-				18E3B2F921E88BCA00224D6D /* Main.storyboard */,
-				18E3B2FC21E88BCB00224D6D /* Assets.xcassets */,
-				18E3B2FE21E88BCB00224D6D /* LaunchScreen.storyboard */,
-				18E3B30121E88BCB00224D6D /* Info.plist */,
+				18E3B32621E88E6800224D6D /* Config */,
+				18E3B32421E88E2B00224D6D /* Source */,
+				18E3B32321E88E1700224D6D /* AppleDelegate */,
 			);
 			path = empty;
 			sourceTree = "<group>";
@@ -123,6 +120,41 @@
 				18E3B31721E88BCC00224D6D /* Info.plist */,
 			);
 			path = emptyUITests;
+			sourceTree = "<group>";
+		};
+		18E3B32321E88E1700224D6D /* AppleDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				18E3B2F521E88BCA00224D6D /* AppDelegate.swift */,
+				18E3B2F721E88BCA00224D6D /* ViewController.swift */,
+			);
+			path = AppleDelegate;
+			sourceTree = "<group>";
+		};
+		18E3B32421E88E2B00224D6D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				18E3B32521E88E4A00224D6D /* Image */,
+				18E3B2F921E88BCA00224D6D /* Main.storyboard */,
+				18E3B2FE21E88BCB00224D6D /* LaunchScreen.storyboard */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		18E3B32521E88E4A00224D6D /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				18E3B2FC21E88BCB00224D6D /* Assets.xcassets */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		18E3B32621E88E6800224D6D /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				18E3B30121E88BCB00224D6D /* Info.plist */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -434,7 +466,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NL3CN39K6L;
-				INFOPLIST_FILE = empty/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/empty/Config/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -442,7 +475,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ss.com.xu.empty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -452,7 +485,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NL3CN39K6L;
-				INFOPLIST_FILE = empty/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/empty/Config/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,7 +494,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ss.com.xu.empty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
